@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37411.7 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "Leetcode\LeetCode\LeetCode.csproj", "{3ACB33F6-EC6F-4635-9A34-7BB7C8341011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackerrank", "Hackerrank\Hackerrank\Hackerrank.csproj", "{18C5070C-B93C-47F1-AB64-13A04CF94BEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner", "Runner\Runner\Runner.csproj", "{BC433CD7-3C2A-42E7-9117-DE434EB1ED46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.Test", "Tests\LeetCode\LeetCOde.Test\LeetCode.Test.csproj", "{386BBBED-F867-4596-AF0A-86BF7C7B7108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.Test", "Tests\HackerRank\HackerRank.Test\HackerRank.Test.csproj", "{5F734DE7-4FFE-4C81-B8D6-9202C6F42217}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ACB33F6-EC6F-4635-9A34-7BB7C8341011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACB33F6-EC6F-4635-9A34-7BB7C8341011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACB33F6-EC6F-4635-9A34-7BB7C8341011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACB33F6-EC6F-4635-9A34-7BB7C8341011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C5070C-B93C-47F1-AB64-13A04CF94BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C5070C-B93C-47F1-AB64-13A04CF94BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C5070C-B93C-47F1-AB64-13A04CF94BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C5070C-B93C-47F1-AB64-13A04CF94BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC433CD7-3C2A-42E7-9117-DE434EB1ED46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC433CD7-3C2A-42E7-9117-DE434EB1ED46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC433CD7-3C2A-42E7-9117-DE434EB1ED46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC433CD7-3C2A-42E7-9117-DE434EB1ED46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{386BBBED-F867-4596-AF0A-86BF7C7B7108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386BBBED-F867-4596-AF0A-86BF7C7B7108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386BBBED-F867-4596-AF0A-86BF7C7B7108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386BBBED-F867-4596-AF0A-86BF7C7B7108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F734DE7-4FFE-4C81-B8D6-9202C6F42217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F734DE7-4FFE-4C81-B8D6-9202C6F42217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F734DE7-4FFE-4C81-B8D6-9202C6F42217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F734DE7-4FFE-4C81-B8D6-9202C6F42217}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{386BBBED-F867-4596-AF0A-86BF7C7B7108} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5F734DE7-4FFE-4C81-B8D6-9202C6F42217} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4EB4260-DC4F-4508-B862-3743D6982724}
+	EndGlobalSection
+EndGlobal
