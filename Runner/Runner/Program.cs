@@ -20,6 +20,7 @@ switch (Console.ReadLine())
             case "1":
                 Console.WriteLine("=== Array and Strings ===");
                 Console.WriteLine("1. Merge String Alternately (PI1678)");
+                Console.WriteLine("2. Greatest Common Divisor of Strings (P1071)");
                 Console.Write("Pilih soal: ");
                 switch (Console.ReadLine())
                 {
@@ -30,6 +31,16 @@ switch (Console.ReadLine())
                         string result = mergeString.MergeAlternately(word1, word2);
                         Console.WriteLine($"Hasil penggabungan: {result}");
                         break;
+
+                    case "2":
+                        var gcdString = new P1071_GCDString();
+                        string str1 = "ABCABC";
+                        string str2 = "ABC";
+
+                        string gcdResult = gcdString.GcdOfStrings(str1, str2);
+                        Console.WriteLine($"Hasil GCD String: {gcdResult}");
+                        break;
+
                     default:
                         Console.WriteLine("Soal tidak ditemukan.");
                         break;
